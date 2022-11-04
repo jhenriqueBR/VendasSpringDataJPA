@@ -3,7 +3,7 @@ spring:
     # O Drive com.mysql.jdbc.Driver foi depreciado
     #driverClassName: com.mysql.jdbc.Driver
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/vendas?useTimezone=true&serverTimezone=UTC
+    url: jdbc:mysql://localhost:3306/VENDAS?useTimezone=true&serverTimezone=UTC
     username: aula
     password: aula
   jpa:
