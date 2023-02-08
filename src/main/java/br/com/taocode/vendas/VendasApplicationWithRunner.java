@@ -15,10 +15,9 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class VendasApplicationWithRunner {
 
-	/*
 	@Bean
 	public CommandLineRunner init(
 			@Autowired ClienteRepositoryJPA clienteRepository,
@@ -31,7 +30,7 @@ public class VendasApplicationWithRunner {
 			this.usarJpaRepository(clienteJpaRepository, pedidoRepository);
 		};
 	}
-	*/
+
 	private void usarJpaRepository(
 			ClienteRepository clienteJpaRepository,
 			PedidoRepository  pedidoRepository 	) {
