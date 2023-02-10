@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
@@ -23,6 +24,4 @@ public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
 	List<Cliente> findByNome(String nome);
 	List<Cliente> findByNomeLike(String nome);
-
-
 }
